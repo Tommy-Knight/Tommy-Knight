@@ -11,7 +11,7 @@
 
 - 📫 You can follow me on :  [![Twitter][1.2]][1]
 
-- 📄 Know about my experiences or reach me on :  [![LinkedIn][3.2]][3]
+- 📄 Know about my experiences or reach me on :  [![LinkedIn][2.2]][2]
 
 - ⚡ Fun fact **I presented Best Children's Animation for BAFTA in 2008!**
 
