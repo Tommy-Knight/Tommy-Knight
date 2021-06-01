@@ -9,7 +9,7 @@
 
 - 💬 Ask me about **Javascript, CSS, Sass, React, Node.js, Express, MongoDB**
 
-- 📫 Follow me at *tknighted@hotmail.com**
+- 📫 You can find me on [![Twitter][1.2]][1], or on [![LinkedIn][3.2]][3].
 
 - 📄 Know about my experiences or reach me at <a href="https://linkedin.com/in/tommy-knight-785175212/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="tommy-knight" height="30" width="40" /></a>[www.linkedin.com/in/tommy-knight-785175212/](www.linkedin.com/in/tommy-knight-785175212/)
 
@@ -23,3 +23,17 @@
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=tommy-knight&" alt="tommy-knight" /></p>
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=tommy-knight&show_icons=true&locale=en&layout=compact" alt="tommy-knight" /></p>
+
+
+
+
+
+
+<!-- Icons -->
+
+[1.2]: http://i.imgur.com/wWzX9uB.png (twitter icon without padding)
+[2.2]: https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/linkedin-3-16.png (LinkedIn icon without padding)
+
+
+[1]: https://twitter.com/_TommyLK
+[2]: https://www.linkedin.com/in/tommy-knight-785175212/
