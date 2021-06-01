@@ -9,9 +9,9 @@
 
 - 💬 Ask me about **Javascript, CSS, Sass, React, Node.js, Express, MongoDB**
 
-- 📫 You can follow me on [![Twitter][1.2]][1]!
+- 📫 You can follow me on   [![Twitter][1.2]][1]
 
-- 📄 Know about my experiences or reach me at <a href="https://linkedin.com/in/tommy-knight-785175212/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="tommy-knight" height="30" width="40" /></a>
+- 📄 Know about my experiences or reach me on <a href="https://linkedin.com/in/tommy-knight-785175212/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="tommy-knight" height="30" width="40" /></a>
 
 - ⚡ Fun fact **I presented Best Children's Animation for BAFTA in 2008!**
 
