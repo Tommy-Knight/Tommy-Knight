@@ -1,11 +1,11 @@
 ### 
 
 <h1 align="center">Hi 👋, I'm Tommy Knight!</h1>
-<h3 align="center">A passionate full stack developer living in the UK</h3>
+<h3 align="center">A passionate and creative developer living in the UK</h3>
 
-- 🔭 I’m currently studying Web Development at Strive School!
+- 🔭 I’m currently studying and working collabratively with other students at Strive School!
 
-- 🌱 I’m learning **Express, Node.js, MongoDB**
+- 🌱 I’m learning **MERN-Stack. Open source full stack development**
 
 - 💬 Ask me about **Javascript, CSS, Sass, React, Node.js, Express, MongoDB**
 
