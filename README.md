@@ -31,8 +31,8 @@
 
 <!-- Icons -->
 
-[1.2]: http://i.imgur.com/wWzX9uB.png (Please Hire Me!)
-[2.2]: https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/linkedin-3-16.png (LinkedIn icon without padding)
+[1.2]: http://i.imgur.com/wWzX9uB.png (Thanks for being interested!)
+[2.2]: https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/linkedin-3-16.png (Have a great day!)
 
 
 [1]: https://twitter.com/_TommyLK
