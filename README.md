@@ -5,9 +5,9 @@
 
 - 🔭 I’m currently studying and working collabratively with other students at Strive School!
 
-- 🌱 I’m learning **MERN-Stack. Open source full stack development**
+- 🌱 I’m learning **MERN-Stack. Open Source Full Stack development.**
 
-- 💬 Ask me about **Javascript, CSS, Sass, React, Node.js, Express, MongoDB**
+- 💬 Ask me about **Javascript, CSS, React, custom keyboard shortcuts or how my day has been.**
 
 - 📫 You can follow me on :  [![Twitter][1.2]][1]
 
