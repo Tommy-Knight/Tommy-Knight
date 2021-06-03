@@ -7,7 +7,7 @@
 
 - 🌱 I’m learning **MERN-Stack. Open Source Full Stack development.**
 
-- 💬 Ask me about **Javascript, CSS, HTML, React, or how my day has been.**
+- 💬 Ask me about **Customising VSCode themes, keyboard shortcuts and settings to improve your efficiency.**
 
 - 📫 You can follow me on :  [![Twitter][1.2]][1]
 
