@@ -1,13 +1,13 @@
 ### 
 
 <h1 align="center">Hi 👋, I'm Tommy Knight!</h1>
-<h3 align="center">A passionate and creative Web Developer living in the UK</h3>
+<h3 align="center">A creative and passionate Web Developer living in the UK</h3>
 
 - 🔭 I’m currently studying and working collabratively with other students at Strive School!
 
 - 🌱 I’m learning **MERN-Stack. Open Source Full Stack development.**
 
-- 💬 Ask me about **Javascript, CSS, React, custom keyboard shortcuts or how my day has been.**
+- 💬 Ask me about **Javascript, CSS, HTML, React, or how my day has been.**
 
 - 📫 You can follow me on :  [![Twitter][1.2]][1]
 
