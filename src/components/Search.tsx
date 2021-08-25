@@ -1,12 +1,13 @@
 import { ChangeEvent, useState } from "react";
-import { RouteComponentProps } from "react-router-dom";
+
 import { ResponseInterface } from "../store/types";
+import { RouteComponentProps } from "react-router-dom";
 import { Weather } from "./Weather";
 
 export default function Search(props: RouteComponentProps) {
 	const [searchValue, setSearchValue] = useState<string>("");
 	const [searchResult, setSearchResult] = useState<ResponseInterface | null>(null);
-	const [error, setError] = useState<boolean>(false);
+	// const [error, setError] = useState<boolean>(false);
 	const [isLoading, setIsLoading] = useState<boolean>(false);
 
 	const handleSearch = async (e: React.FormEvent<HTMLFormElement>) => {
@@ -23,7 +24,7 @@ export default function Search(props: RouteComponentProps) {
 			setSearchResult(data);
 			setIsLoading(false);
 		} catch (error) {
-			setError(true);
+	
 			console.error(error);
 		}
 	};
