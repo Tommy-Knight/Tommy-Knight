@@ -1,5 +1,5 @@
 {
-	"name": "weather-app",
+	"name": "tommy",
 	"version": "0.1.0",
 	"private": false,
 	"dependencies": {
@@ -11,7 +11,7 @@
 		"@types/react": "^17.0.13",
 		"@types/react-dom": "^17.0.8",
 		"@types/react-redux": "^7.1.16",
-		"@types/react-router-dom": "^5.1.7",
+		"@types/react-router-dom": "^5.1.8",
 		"date-fns": "^2.23.0",
 		"react": "^17.0.2",
 		"react-dom": "^17.0.2",
