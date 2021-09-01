@@ -24,19 +24,20 @@ export default function Search(props: RouteComponentProps) {
 			setSearchResult(data);
 			setIsLoading(false);
 		} catch (error) {
-	
 			console.error(error);
 		}
 	};
 
 	return (
 		<>
-			<div>
+			<div className='video-container'>
 				<video
 					style={{
-						width: "120%",
-						transform: " translateX(-10%)",
+						width: "auto",
+						height: "auto",
 						zIndex: 0,
+						position: "absolute",
+						top: "50%",
 					}}
 					className='videoTag'
 					autoPlay
@@ -48,13 +49,10 @@ export default function Search(props: RouteComponentProps) {
 				<div
 					style={{
 						zIndex: 5,
-						position: "fixed",
-						top: "20%",
-						left: "50%",
-						transform: " translateX(-50%)",
+						marginTop: "100px",
 					}}>
 					<form
-						style={{ zIndex: 5, position: "relative" }}
+						style={{ zIndex: 5 }}
 						className='App'
 						onSubmit={(e: React.FormEvent<HTMLFormElement>) => handleSearch(e)}>
 						<input
@@ -69,7 +67,6 @@ export default function Search(props: RouteComponentProps) {
 								borderRadius: "30px",
 								border: "1px solid black",
 								textAlign: "center",
-								marginTop: "10px",
 								marginBottom: "10px",
 								zIndex: 5,
 							}}
@@ -87,6 +84,9 @@ export default function Search(props: RouteComponentProps) {
 								borderRadius: "14px",
 								border: "1px solid black",
 								padding: "40px",
+								margin: "0 auto",
+								maxWidth: "200px",
+	
 							}}>
 							we loading baby
 						</div>
@@ -98,6 +98,8 @@ export default function Search(props: RouteComponentProps) {
 								borderRadius: "14px",
 								border: "1px solid black",
 								padding: "40px",
+								margin: "0 auto",
+								maxWidth: "200px",
 							}}>
 							<Weather {...searchResult} />
 						</div>
