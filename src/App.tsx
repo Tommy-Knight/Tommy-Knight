@@ -3,7 +3,7 @@ import "./style/App.scss";
 import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
 
 import React from "react";
-import Search from "./components/Search"
+import Search from "./components/weather/Search"
 import Splash from "./components/Splash"
 
 class App extends React.Component {

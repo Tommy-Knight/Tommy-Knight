@@ -1,6 +1,5 @@
-import { ResponseInterface } from "../store/types";
+import { ResponseInterface } from "../../store/types";
 import format from "date-fns/format";
-
 import fromUnixTime from "date-fns/fromUnixTime";
 
 export const Weather = (searchResult: ResponseInterface) => {

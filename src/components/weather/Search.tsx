@@ -1,6 +1,6 @@
 import { ChangeEvent, useState } from "react";
 
-import { ResponseInterface } from "../store/types";
+import { ResponseInterface } from "../../store/types";
 import { RouteComponentProps } from "react-router-dom";
 import { Weather } from "./Weather";
 

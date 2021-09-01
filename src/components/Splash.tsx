@@ -1,15 +1,11 @@
-import React from "react";
 import { useEffect } from "react";
 
 export const Splash = ({ history }: any) => {
-	// window.setTimeout(() => {
-	// 	history.push("/weather");
-	// }, 2000);
 
 	useEffect(() => {
 		window.setTimeout(() => {
 			console.log("🔨⏰");
-		}, 500);
+		}, 666);
 	});
 
 	const proceed = () => {
