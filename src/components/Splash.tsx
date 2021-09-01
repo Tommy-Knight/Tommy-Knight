@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 
 export const Splash = ({ history }: any) => {
-
 	useEffect(() => {
 		window.setTimeout(() => {
 			console.log("🔨⏰");
@@ -9,7 +8,7 @@ export const Splash = ({ history }: any) => {
 	});
 
 	const proceed = () => {
-		history.push("/weather");
+		history.push("/home");
 		console.log("Weather app");
 	};
 
@@ -21,7 +20,7 @@ export const Splash = ({ history }: any) => {
 						TOMMY
 					</div>
 					<div className='glow'>TOMMY</div>
-					<p className='subtitle'>
+					<p style={{ overflow: "hidden", width: "100vw" }} className='subtitle'>
 						fullstackwebdevfullstackwebdevfullstackwebdevfullstackwebdevfullstackwebdevfullstackwebdevfullstackwebdevfullstackwebdevfullstackwebdevfullstackwebdevfullstackwebdevfullstackwebdevfullstackwebdevfullstackwebdevfullstackwebdevfullstackwebdevfullstackwebdevfullstackwebdevfullstackwebdevfullstackwebdevfullstackwebdevfullstackwebdevfullstackwebdevfullstackwebdevfullstackwebdevfullstackwebdevfullstackwebdevfullstackwebdevfullstackwebdevfullstackwebdevfullstackwebdevfullstackwebdevfullstackwebdevfullstackwebdev
 					</p>
 				</div>
