@@ -1,24 +1,24 @@
 /* width */
 ::-webkit-scrollbar {
-  width: 5px;
+	width: 5px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px rgba(155, 155, 155, 0);
-  border-radius: 10px;
+	box-shadow: inset 0 0 5px rgba(155, 155, 155, 0);
+	border-radius: 10px;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgba(59, 59, 59, 0.281);
-  border-radius: 10px;
+	background: rgba(59, 59, 59, 0.281);
+	border-radius: 10px;
 }
 body {
-  text-align: center;
-    background-color: black;
-  color: black;
-  overflow:auto;
+	text-align: center;
+	background-color: black;
+	color: black;
+	overflow: auto;
 }
 
 // .App-logo {
@@ -33,11 +33,11 @@ body {
 // }
 
 .App-header {
-  background-color: #282c34;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-size: calc(10px + 2vmin);
+	background-color: #282c34;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: calc(10px + 2vmin);
 }
 
 // .App-link {
@@ -54,181 +54,195 @@ body {
 // }
 
 .video-container {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 100vw;
-  height: 100vh; 
-  overflow: hidden;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
 }
 .video-container video {
-  /* Make video to at least 100% wide and tall */
-  min-width: 100vw; 
-  min-height: 100vh; 
+	/* Make video to at least 100% wide and tall */
+	min-width: 100vw;
+	min-height: 100vh;
 
-  /* Setting width & height to auto prevents the browser from stretching or squishing the video */
-  width: auto;
-  height: auto;
+	/* Setting width & height to auto prevents the browser from stretching or squishing the video */
+	width: auto;
+	height: auto;
 
-  /* Center the video */
-  position: absolute;
-  top: 50%;
-  left: 45%;
-  transform: translate(-50%,-50%);
+	/* Center the video */
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
-.searchInput{
-  font-family: inherit;
+@media screen and (max-width: 600px) {
+	.video-container {
+		min-width: 100vw;
+		min-height: 100vh;
+
+		/* Setting width & height to auto prevents the browser from stretching or squishing the video */
+		width: auto;
+		height: auto;
+
+		/* Center the video */
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
 }
-.searchInput:focus{
-outline:none
+.searchInput {
+	font-family: inherit;
+}
+.searchInput:focus {
+	outline: none;
 }
 
 .container {
-  position: absolute;
-  transform: translate(-50%, -50%);
-  top: 40%;
-  left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
 }
 
 .glitch {
-  color: rgb(223, 191, 191);
-  position: relative;
-  font-size: 9vw;
-  // margin: 70px 200px;
-  animation: glitch 5s 5s infinite;
+	color: rgb(223, 191, 191);
+	position: relative;
+	font-size: 9vw;
+	// margin: 70px 200px;
+	animation: glitch 5s 5s infinite;
 }
 
 .glitch::before {
-  content: attr(data-text);
-  position: absolute;
-  left: -2px;
-  text-shadow: -5px 0 magenta;
-  background: black;
-  overflow: hidden;
-  top: 0;
-  animation: noise-1 2s linear infinite alternate-reverse, glitch 3s 3.05s infinite;
+	content: attr(data-text);
+	position: absolute;
+	left: -2px;
+	text-shadow: -5px 0 magenta;
+	background: black;
+	overflow: hidden;
+	top: 0;
+	animation: noise-1 2s linear infinite alternate-reverse, glitch 3s 3.05s infinite;
 }
 
 .glitch::after {
-  content: attr(data-text);
-  position: absolute;
-  left: 2px;
-  text-shadow: -5px 0 lightgreen;
-  background: black;
-  overflow: hidden;
-  top: 0;
-  animation: noise-2 2s linear infinite alternate-reverse, glitch 3s 3s infinite;
+	content: attr(data-text);
+	position: absolute;
+	left: 2px;
+	text-shadow: -5px 0 lightgreen;
+	background: black;
+	overflow: hidden;
+	top: 0;
+	animation: noise-2 2s linear infinite alternate-reverse, glitch 3s 3s infinite;
 }
 
 @keyframes glitch {
-  1%{
-    transform: rotateX(10deg) skewX(90deg);
-  }
-  2%{
-    transform: rotateX(0deg) skewX(0deg);
-  }
+	1% {
+		transform: rotateX(10deg) skewX(90deg);
+	}
+	2% {
+		transform: rotateX(0deg) skewX(0deg);
+	}
 }
 
 @keyframes noise-1 {
-  $steps: 30;
-  @for $i from 1 through $steps {
-    #{percentage($i*(1/$steps))} {
-      $top: random(100);
-      $bottom: random(101 - $top);
-      clip-path: inset(#{$top}px 0 #{$bottom}px 0);
-    }
-  }
+	$steps: 30;
+	@for $i from 1 through $steps {
+		#{percentage($i*(1/$steps))} {
+			$top: random(100);
+			$bottom: random(101 - $top);
+			clip-path: inset(#{$top}px 0 #{$bottom}px 0);
+		}
+	}
 }
 
 @keyframes noise-2 {
-  $steps: 30;
-  @for $i from 0 through $steps {
-    #{percentage($i*(1/$steps))} {
-      $top: random(100);
-      $bottom: random(101 - $top);
-      clip-path: inset(#{$top}px 0 #{$bottom}px 0);
-    }
-  }
+	$steps: 30;
+	@for $i from 0 through $steps {
+		#{percentage($i*(1/$steps))} {
+			$top: random(100);
+			$bottom: random(101 - $top);
+			clip-path: inset(#{$top}px 0 #{$bottom}px 0);
+		}
+	}
 }
 
 .scanlines {
-  overflow: hidden;
-  mix-blend-mode: difference;
+	overflow: hidden;
+	mix-blend-mode: difference;
 }
 
 .scanlines::before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
 
-  background: repeating-linear-gradient(
-    to bottom,
-    transparent 0%,
-    rgba(10, 10, 10, 0.452) .5%,
-    transparent 1%
-  );
+	background: repeating-linear-gradient(
+		to bottom,
+		transparent 0%,
+		rgba(10, 10, 10, 0.452) 0.5%,
+		transparent 1%
+	);
 
-  animation: fudge 7s ease-in-out alternate infinite;
+	animation: fudge 7s ease-in-out alternate infinite;
 }
 
-
 @keyframes fudge {
-  from {
-    transform: translate(0px, 0px);
-  }
-  to {
-    transform: translate(0px, 2%);
-  }
+	from {
+		transform: translate(0px, 0px);
+	}
+	to {
+		transform: translate(0px, 2%);
+	}
 }
 
 .glow {
-  @extend .glitch;
-  text-shadow: 0 0 1000px rgb(223, 191, 191);
-  color: transparent;
-  position: absolute;
-  top: 0;
+	@extend .glitch;
+	text-shadow: 0 0 1000px rgb(223, 191, 191);
+	color: transparent;
+	position: absolute;
+	top: 0;
 }
 
 .subtitle {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 100;
-  font-size: .8vw;
-  color: rgba(165, 141, 141, .4);
-  text-transform: uppercase;
-  letter-spacing: 1em;
-  text-align: center;
-  position: absolute;
-  left: -104.6%;
-  animation: glitch-2 5s 5.02s infinite;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 100;
+	font-size: 0.8vw;
+	color: rgba(165, 141, 141, 0.4);
+	text-transform: uppercase;
+	letter-spacing: 1em;
+	text-align: center;
+	position: absolute;
+	left: -104.6%;
+	animation: glitch-2 5s 5.02s infinite;
 }
 
 @keyframes glitch-2 {
-  1%{
-    transform: rotateX(10deg) skewX(70deg);
-  }
-  2%{
-    transform: rotateX(0deg) skewX(0deg);
-  }
+	1% {
+		transform: rotateX(10deg) skewX(70deg);
+	}
+	2% {
+		transform: rotateX(0deg) skewX(0deg);
+	}
 }
 
 //########################### FLOAT UP ###########################
 
 p {
-  animation-duration: 2.2s;
-  animation-name: slidein;
+	animation-duration: 2.2s;
+	animation-name: slidein;
 }
 @keyframes slidein {
-  from {
-    padding-top:10px;
-    opacity: 0%; 
-  }
-  to {
-    opacity:100%;
-  }
+	from {
+		padding-top: 10px;
+		opacity: 0%;
+	}
+	to {
+		opacity: 100%;
+	}
 }
 //########################### FLOAT UP ###########################
-
