@@ -16,7 +16,7 @@ export default function Search(props: RouteComponentProps) {
 		try {
 			setIsLoading(true);
 			const result = await fetch(
-				`http://api.openweathermap.org/data/2.5/weather?q=${searchValue}&units=metric&appid=9d33c3e69026b25a6cab7f300ec5e461`
+				`https://api.openweathermap.org/data/2.5/weather?q=${searchValue}&units=metric&appid=9d33c3e69026b25a6cab7f300ec5e461`
 			);
 
 			const data = await result.json();
