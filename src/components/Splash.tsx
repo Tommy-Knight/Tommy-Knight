@@ -8,7 +8,7 @@ export const Splash = ({ history }: any) => {
 	});
 
 	const proceed = () => {
-		history.push("/home");
+		history.push("/https://github.com/Tommy-Knight");
 		console.log("Weather app");
 	};
 
