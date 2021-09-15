@@ -9,7 +9,7 @@ export const Splash = () => {
 	});
 
 	const proceed = () => {
-		window.location.href = "/https://github.com/Tommy-Knight";
+		window.location.href = "https://github.com/Tommy-Knight";
 	};
 
 	return (
