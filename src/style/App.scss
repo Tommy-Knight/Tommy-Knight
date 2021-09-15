@@ -21,17 +21,6 @@ body {
 	overflow: auto;
 }
 
-// .App-logo {
-//   height: 40vmin;
-//   pointer-events: none;
-// }
-
-// @media (prefers-reduced-motion: no-preference) {
-//   .App-logo {
-//     animation: App-logo-spin infinite 20s linear;
-//   }
-// }
-
 .App-header {
 	background-color: #282c34;
 	display: flex;
@@ -40,59 +29,6 @@ body {
 	font-size: calc(10px + 2vmin);
 }
 
-// .App-link {
-//   color: #61dafb;
-// }
-
-// @keyframes App-logo-spin {
-//   from {
-//     transform: rotate(0deg);
-//   }
-//   to {
-//     transform: rotate(360deg);
-//   }
-// }
-
-.video-container {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	width: 100vw;
-	height: 100vh;
-	overflow: hidden;
-}
-.video-container video {
-	/* Make video to at least 100% wide and tall */
-	min-width: 100vw;
-	min-height: 100vh;
-
-	/* Setting width & height to auto prevents the browser from stretching or squishing the video */
-	width: auto;
-	height: auto;
-
-	/* Center the video */
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
-
-@media screen and (max-width: 600px) {
-	.video-container {
-		min-width: 100vw;
-		min-height: 100vh;
-
-		/* Setting width & height to auto prevents the browser from stretching or squishing the video */
-		width: auto;
-		height: auto;
-
-		/* Center the video */
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-	}
-}
 .searchInput {
 	font-family: inherit;
 }

@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 
-export const Splash = ({ history }: any) => {
+export const Splash = () => {
+
 	useEffect(() => {
 		window.setTimeout(() => {
 			console.log("🔨⏰");
@@ -8,8 +9,7 @@ export const Splash = ({ history }: any) => {
 	});
 
 	const proceed = () => {
-		history.push("/https://github.com/Tommy-Knight");
-		console.log("Weather app");
+		window.location.href = "/https://github.com/Tommy-Knight";
 	};
 
 	return (
