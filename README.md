@@ -33,8 +33,7 @@
 <!-- Icons -->
 
 [1.2]: http://i.imgur.com/wWzX9uB.png (Thanks for being interested!)
-[2.2]: https://assets.webiconspng.com/uploads/2017/01/Linkedin-High-Resolution-PNG-Icon.png (Have a great day!)
-
+[2.2]: ![](https://assets.webiconspng.com/uploads/2017/01/Linkedin-High-Resolution-PNG-Icon.png =64x64) (Have a great day!)
 
 [1]: https://twitter.com/_TommyLK
 [2]: https://www.linkedin.com/in/tommy-knight-785175212/
