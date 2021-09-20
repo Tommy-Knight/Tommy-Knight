@@ -33,7 +33,7 @@
 <!-- Icons -->
 
 [1.2]: http://i.imgur.com/wWzX9uB.png (Thanks for being interested!)
-[2.2]: https://icons.iconarchive.com/icons/jankoatwarpspeed/handycons-2/32/linkedin-icon.png (Have a great day!)
+[2.2]: https://files.softicons.com/download/social-media-icons/hexagonal-social-media-icons-by-design-bolts/png/24x24/Linkedin.png (Have a great day!)
 
 [1]: https://twitter.com/_TommyLK
 [2]: https://www.linkedin.com/in/tommy-knight-785175212/
