@@ -7,11 +7,11 @@
 
 - 🌱 I’m learning **MERN-Stack. Open Source Full Stack development.**
 
-- 💬 Ask me about **customising VSCode Themes, keyboard shortcuts and settings to improve your efficiency.**
+- 💬 Ask me about **UX/UI or VSCode Extentions!**
 
-- 📫 You can follow me on :  [![Twitter][1.2]][1]
-
-- 📄 Know about my experiences or reach me on :  [![LinkedIn][2.2]][2]
+<!-- - 📫 You can follow me on :  [![Twitter][1.2]][1]
+ -->
+- 📄 Reach me here :  [![LinkedIn][2.2]][2]
 
 - ⚡ Fun fact **I'm verified on Twitter!**
 
@@ -33,7 +33,7 @@
 <!-- Icons -->
 
 [1.2]: http://i.imgur.com/wWzX9uB.png (Thanks for being interested!)
-[2.2]: https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/linkedin-3-16.png (Have a great day!)
+[2.2]: https://assets.webiconspng.com/uploads/2017/01/Linkedin-High-Resolution-PNG-Icon.png (Have a great day!)
 
 
 [1]: https://twitter.com/_TommyLK
