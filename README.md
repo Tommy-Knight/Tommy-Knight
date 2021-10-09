@@ -36,4 +36,4 @@
 [2.2]: https://files.softicons.com/download/social-media-icons/hexagonal-social-media-icons-by-design-bolts/png/24x24/Linkedin.png (Have a great day!)
 
 [1]: https://twitter.com/_TommyLK
-[2]: https://www.linkedin.com/in/tommy-knight-785175212/
+[2]: https://www.linkedin.com/in/tommy-knight-785175212/ (Thanks for being interested!)
