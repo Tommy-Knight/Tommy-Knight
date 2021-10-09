@@ -11,7 +11,7 @@
 
 <!-- - 📫 You can follow me on :  [![Twitter][1.2]][1]
  -->
-- 📄 Contact me on LinkedIn :  [![LinkedIn]][2]
+- 📄 Contact me on [LinkedIn][2]
 
 - ⚡ Fun fact **I'm verified on Twitter!**
 
