@@ -3,15 +3,15 @@
 <h1 align="center">Hi 👋, I'm Tommy Knight!</h1>
 <h3 align="center">A creative and passionate Web Developer living in the UK</h3>
 
-- 🔭 I’m currently studying and working collabratively with other students at Strive School!
+- 🌱 I've studied **MERN-Stack. Open Source Full Stack development.** Working collaboratively with other students at <a href="https://strive.school">Strive School</a>!
 
-- 🌱 I’m learning **MERN-Stack. Open Source Full Stack development.**
+- 🔭 I’m currently focusing on imporoving my knowledge with Data Structures and Algorithms. 
 
 - 💬 Ask me about **UX/UI or VSCode Extentions!**
 
-<!-- - 📫 You can follow me on :  [![Twitter][1.2]][1]
- -->
 - 📄 Contact me on [LinkedIn][2]
+
+- 📫 You can follow me on :  [Twitter][1]
 
 - ⚡ Fun fact **I'm verified on Twitter!**
 
