@@ -9,9 +9,9 @@
 
 - 🤟 Ask me about **UX/UI or VSCode Extentions!**
 
-- 💭 Contact me on [LinkedIn][2]
-
 - 📫 You can follow me on :  [Twitter][1]
+
+- 💭 Contact me on [LinkedIn][2]
 
 - ⚡ Fun fact **I have 3 dogs and a cat! 🐕**
 
