@@ -9,7 +9,7 @@
 
 - 🤟 Ask me about **UX/UI or VSCode Extentions!**
 
-- 📫 You can follow me on :  [Twitter][1]
+- 📫 You can follow me on [Twitter][1]
 
 - 💭 Contact me on [LinkedIn][2]
 
