@@ -7,6 +7,8 @@
 	box-sizing: border-box;
 	display: flex;
 	justify-content: center;
+	height:100vh;
+	overflow: hidden;
 }
 .section--hello .inner {
 	max-width: 1600px;
@@ -28,7 +30,7 @@
 }
 .section--hello .role {
 	margin-top: 70px;
-	font-size: 35px;
+	font-size: 22px;
 	color: #f1f2f3;
 }
 .section--hello .text-subtitle {
