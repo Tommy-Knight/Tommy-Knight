@@ -29,7 +29,7 @@
 }
 .section--hello .role {
 	margin-top: 70px;
-	font-size: 22px;
+	font-size: 25px;
 	color: #f1f2f3;
 }
 .section--hello .text-subtitle {
@@ -87,7 +87,7 @@
 		font-size: 55px;
 	}
 	.section--hello .role {
-		font-size: 25px;
+		font-size: 20px;
 	}
 	.section--hello .text-subtitle {
 		margin-top: 30px;
