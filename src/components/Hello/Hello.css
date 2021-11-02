@@ -7,8 +7,7 @@
 	box-sizing: border-box;
 	display: flex;
 	justify-content: center;
-	height:100vh;
-	overflow: hidden;
+	height: 100vh;
 }
 .section--hello .inner {
 	max-width: 1600px;
@@ -107,6 +106,7 @@
 	.section--hello {
 		margin-top: 80px;
 		padding: 5vh 20px;
+		height: 130vh;
 	}
 	.section--hello .inner {
 		display: block;
