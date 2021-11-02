@@ -12,6 +12,7 @@
 		"@types/react-dom": "^17.0.8",
 		"@types/react-redux": "^7.1.16",
 		"@types/react-router-dom": "^5.1.8",
+		"@types/react-typist": "^2.0.3",
 		"date-fns": "^2.23.0",
 		"react": "^17.0.2",
 		"react-dom": "^17.0.2",
@@ -19,6 +20,7 @@
 		"react-router-dom": "^5.2.0",
 		"react-router-redux": "^4.0.8",
 		"react-scripts": "^4.0.3",
+		"react-typist": "^2.0.5",
 		"redux-thunk": "^2.3.0",
 		"sass": "^1.35.1",
 		"typesafe-actions": "^5.1.0",
@@ -48,5 +50,9 @@
 			"last 1 firefox version",
 			"last 1 safari version"
 		]
+	},
+	"devDependencies": {
+		"react-easy-emoji": "^1.4.0",
+		"react-reveal": "^1.2.2"
 	}
 }
