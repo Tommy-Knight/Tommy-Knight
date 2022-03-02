@@ -36,8 +36,8 @@ export const skills = {
 		{ fontAwesome: 'fab fa-react', text: 'React', proficiency: 90 },
 		{ fontAwesome: 'fab fa-node-js', text: 'Node.js', proficiency: 80 },
 		{ fontAwesome: 'fab fa-css3-alt', text: 'CSS', proficiency: 70 },
-		{ fontAwesome: 'fab fa-server', text: 'MongoDB', proficiency: 80 },
-		{ fontAwesome: 'fab fa-database', text: 'PostgreSQL', proficiency: 80 },
+		{ fontAwesome: 'fas fa-server', text: 'MongoDB', proficiency: 80 },
+		{ fontAwesome: 'fas fa-database', text: 'PostgreSQL', proficiency: 80 },
 		{ fontAwesome: 'fab fa-sass', text: 'Sass', proficiency: 50 },
 		{ fontAwesome: 'fab fa-aws', text: 'AWS', proficiency: 40 },
 		{ fontAwesome: 'fab fa-python', text: 'Python', proficiency: 20 },
@@ -53,6 +53,7 @@ export const projects = {
 			title: 'PhoTide',
 			desc: "A Photographer's Sun and Star App",
 			url: 'https://photide.netlify.app/',
+			img: "/photide.png"
 		},
 		{
 			title: 'Creepy Crawlies',

@@ -3,6 +3,7 @@ import "./Top.css";
 
 
 export default function Top() {
+    
     function TopEvent() {
         document.body.scrollTop = 0; // For Safari
         document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera

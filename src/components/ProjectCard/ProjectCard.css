@@ -5,6 +5,10 @@
     padding: 30px;
     margin-bottom: 30px;
     background-color: #212223;
+    background-image: "/public/photide.png";
+      background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
     color: #f1f2f3;
     font-size: 25px;
     text-align: center;

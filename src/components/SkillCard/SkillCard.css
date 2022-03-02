@@ -24,6 +24,7 @@
     height: 16px;
     border-radius: 8px;
     font-size: 16px;
+    margin-top: 15px;
 }
 .skill-card-main .skill-progress-bar span {
     display: block;
@@ -31,7 +32,7 @@
     background-color: #c1c2c3;
 }
 .skill-card-main .skill-progress-bar p {
-    margin: 0px 0;
+    margin: 15px 0;
 }
 
 @media screen and (max-width: 1380px) {
