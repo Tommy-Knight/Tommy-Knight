@@ -84,16 +84,10 @@ export const achievements = {
 	subTitle: 'I WILL BE SUCCESSFUL',
 	lists: [
 		{
-			img: '',
-			alt: "yay",
+			img: "/strive-cert.png",
+			alt: 'yay',
 			title: 'Strive!',
-			desc: "FINISHED FULL STACK WEB DEVELOPMENT COURSE",
-		},
-		{
-			img: '',
-			alt: "not sure",
-			title: 'There is no Certification...😥',
-			desc: "I'll try harder!",
+			desc: 'FINISHED FULL STACK WEB DEVELOPMENT COURSE',
 		},
 	],
 	view: true,
