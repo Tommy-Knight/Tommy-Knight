@@ -2,6 +2,7 @@ import './style/App.scss';
 import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 import React from 'react';
 import Main from './components/main';
+import Splash from './components/Splash'
 
 class App extends React.Component {
 	render() {
@@ -9,6 +10,7 @@ class App extends React.Component {
 			<Router>
 				<Switch>
 					<Route path='/' render={(routeProps: any) => <Main {...routeProps} />} />
+					<Route path='/splash' render={(routeProps: any) => <Splash {...routeProps} />} />
 				</Switch>
 			</Router>
 		);

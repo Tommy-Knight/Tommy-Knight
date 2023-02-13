@@ -51,7 +51,7 @@ export const projects = {
 			title: 'PhoTide',
 			desc: "A Photographer's Sun and Star App",
 			url: 'https://photide.netlify.app/',
-			img: "/photide.png"
+			img: '/photide.png',
 		},
 		{
 			title: 'Creepy Crawlies',
@@ -72,6 +72,11 @@ export const projects = {
 			title: 'Linkedin Clone',
 			desc: 'I recreated Linkedin with many features from user creation, uploading images in posts, likes and comments on friends and followers posts etc.',
 			url: 'https://github.com/Tommy-Knight/build-week-2-linkedin',
+		},
+		{
+			title: 'Portfolio',
+			desc: 'Practicing CSS effects and design',
+			url: 'www.tommyk.uk',
 		},
 	],
 	view: true,
