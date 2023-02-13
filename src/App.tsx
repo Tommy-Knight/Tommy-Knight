@@ -9,9 +9,13 @@ import Splash from './components/Splash';
 class App extends React.Component {
 	render() {
 		return (
-			<Router basename="www.tommyk.uk">
+			<Router basename='tommyk.uk/splash'>
 				<Switch>
-					<Route path='/' render={(routeProps: any) => <Main {...routeProps} />} exact/>
+					<Route
+						path='/'
+						render={(routeProps: any) => <Main {...routeProps} />}
+						exact
+					/>
 					<Route
 						path='/splash'
 						render={(routeProps: any) => <Splash {...routeProps} />}
