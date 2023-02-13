@@ -67,16 +67,30 @@
 }
 
 @keyframes hello {
-	0% {transform: rotate(0deg);}
-	10% {transform: rotate(-10deg);}
-	20% {transform: rotate(12deg);}
-	30% {transform: rotate(-10deg);}
-	40% {transform: rotate(9deg);}
-	50% {transform: rotate(0deg);}
-	100% {transform: rotate(0deg);}
+	0% {
+		transform: rotate(0deg);
+	}
+	10% {
+		transform: rotate(-10deg);
+	}
+	20% {
+		transform: rotate(12deg);
+	}
+	30% {
+		transform: rotate(-10deg);
+	}
+	40% {
+		transform: rotate(9deg);
+	}
+	50% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(0deg);
+	}
 }
 
-@media screen and (max-width:1380px) {
+@media screen and (max-width: 1380px) {
 	.section--hello {
 		margin-top: 80px;
 	}
@@ -102,7 +116,7 @@
 		margin-top: 60px;
 	}
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
 	.section--hello {
 		margin-top: 80px;
 		padding: 5vh 20px;

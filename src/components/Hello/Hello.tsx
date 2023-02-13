@@ -17,7 +17,7 @@ function Hello() {
 						</div>
 						<div className='role'>
 							<span>
-								<Typist>
+								<Typist cursor={{ hideWhenDone: true }}>
 									Full Stack Web Developer
 									<Typist.Delay ms={2222} />
 									{greeting.role}

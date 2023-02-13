@@ -14,6 +14,41 @@
 	background: rgba(59, 59, 59, 0.281);
 	border-radius: 10px;
 }
+
+:root {
+  --twinkleDelay: 10s;
+}
+
+.stars {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.star {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background-color: white;
+  border-radius: 50%;
+  animation: twinkle 1s ease-in-out infinite;
+  animation-delay: calc(var(--twinkleDelay) * 0.1s);
+}
+
+@keyframes twinkle {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+
 // body {
 // 	text-align: center;
 // 	background-color: black;

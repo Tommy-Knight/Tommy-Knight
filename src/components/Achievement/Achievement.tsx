@@ -1,7 +1,7 @@
 import React from 'react';
 import './Achievement.css';
 import { achievements } from '../../portfolio';
-import AchievementCard from '../AhievementCard/AchievementCard'
+import AchievementCard from '../AchievementCard/AchievementCard'
 
 function Achievement() {
     return (

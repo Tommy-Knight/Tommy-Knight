@@ -1,5 +1,3 @@
-import emoji from 'react-easy-emoji';
-
 export const greeting = {
 	username: 'tommyk.uk',
 	title: "Hi, I'm Tommy Knight",
@@ -21,15 +19,15 @@ export const socialMediaLinks = {
 };
 
 export const skills = {
-	title: emoji('I got Skills ⚡'),
+	title: 'I got Skills ⚡',
 	subTitle:
-		'I have studied and practiced MERN-stack Web Development, and here i will eventually write something cool about myself',
+		'I have studied and practiced MERN-stack Web Development, I can produce Full-Stack web applications using the latest open-source tools.',
 	describeSkills: [
-		emoji('✔ Friendly'),
-		emoji('✔ Good at Xbox'),
-		emoji('✔ Can cook a really nice fry up'),
+		'✔ Determined',
+		'✔ Encouraging',
+		'✔ Can cook a really nice fry up',
 	],
-	//  https://fontawesome.com/ to search icon
+	//  https://fontawesome.com/ for icon
 	lists: [
 		{ fontAwesome: 'fab fa-js', text: 'Javascript', proficiency: 90 },
 		{ fontAwesome: 'fab fa-html5', text: 'HTML5', proficiency: 90 },
@@ -38,15 +36,15 @@ export const skills = {
 		{ fontAwesome: 'fab fa-css3-alt', text: 'CSS', proficiency: 70 },
 		{ fontAwesome: 'fas fa-server', text: 'MongoDB', proficiency: 80 },
 		{ fontAwesome: 'fas fa-database', text: 'PostgreSQL', proficiency: 80 },
-		{ fontAwesome: 'fab fa-sass', text: 'Sass', proficiency: 50 },
-		{ fontAwesome: 'fab fa-aws', text: 'AWS', proficiency: 40 },
-		{ fontAwesome: 'fab fa-python', text: 'Python', proficiency: 20 },
+		{ fontAwesome: 'fab fa-sass', text: 'Sass', proficiency: 60 },
+		{ fontAwesome: 'fab fa-aws', text: 'AWS', proficiency: 70 },
+		{ fontAwesome: 'fab fa-python', text: 'Python', proficiency: 50 },
 	],
 	view: true,
 };
 
 export const projects = {
-	title: emoji('Projects 💻'),
+	title: 'Projects 💻',
 	subTitle: 'Here are my Projects!',
 	lists: [
 		{
@@ -80,7 +78,7 @@ export const projects = {
 };
 
 export const achievements = {
-	title: emoji('Achievements And Certifications 🏆'),
+	title: 'Achievements And Certifications 🏆',
 	subTitle: 'I WILL BE SUCCESSFUL',
 	lists: [
 		{
@@ -96,6 +94,6 @@ export const achievements = {
 export const contactInfo = {
 	title: 'Contact Me! 📞',
 	subTitle: 'Please use Email or Linkedin for any proffesional enquiries.',
-	introduce: emoji('Have a great day!'),
+	introduce: 'Have a great day!',
 	view: true,
 };

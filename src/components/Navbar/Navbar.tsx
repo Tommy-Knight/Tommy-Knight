@@ -18,7 +18,6 @@ function Navbar() {
 
 	return (
 		<header className="header header--section">
-			<div className="inner clearfix">
 
 				<div className="header-logo">
 					<span>&lt;</span>
@@ -53,8 +52,6 @@ function Navbar() {
 						</a>
 					</li>}
 				</ul>
-
-			</div>
 		</header>
 	);
 }

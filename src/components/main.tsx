@@ -10,15 +10,17 @@ import Project from './Project/Project';
 import { greeting, skills, projects, achievements, contactInfo } from '../portfolio';
 
 function Main() {
+
 	useEffect(() => {
 		window.scrollTo(0,1);
 	}, []);
+
 	return (
-		<div className="root">
+		<div className='root'>
 			<Navbar />
 			{greeting.view && <Hello />}
-			{skills.view && <Skill />}
 			{projects.view && <Project />}
+			{skills.view && <Skill />}
 			{achievements.view && <Achievement />}
 			{contactInfo.view && <Contact />}
 			<Footer />
