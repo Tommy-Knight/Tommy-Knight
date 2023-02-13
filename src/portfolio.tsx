@@ -3,7 +3,7 @@ export const greeting = {
 	title: "Hi, I'm Tommy Knight",
 	subTitle: 'Thanks for visiting ❤',
 	role: ", Googler, Doodler, Noodler, Dancer, Prancer, UI Enhancer, Actor, Reacter, Code Compacter, Karaoke Singer, Good Time Bringer, Reader, Thinker, A Nice Whiskey Drinker , Cheeky Winker, Competitive Gamer, Canine Trainer, Joker, Smoker, Midnight Toker, Crypto Hoarder, Skateboarder, Scuba Diver, Horse Rider, Sky Diver, Thought Writer, Sports Liker, Thrillseeker, Globetrotter, Hate Stopper, Get In De Chopper, Film Lover, One Mother, Younger Brother, Big Brother, I'm Making Tea, Would You Like Another?",
-	resumeLink: '/🍒 TOMMY_KNIGHT_CV_2021.pdf',
+	resumeLink: '/TommyKnightCV2023.pdf',
 	view: true,
 };
 
