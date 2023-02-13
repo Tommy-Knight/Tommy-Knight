@@ -2,7 +2,7 @@ export const greeting = {
 	username: 'tommyk.uk',
 	title: "Hi, I'm Tommy Knight",
 	subTitle: 'Thanks for visiting ❤',
-	role: ", Googler, Doodler, Noodler, Dancer, Prancer, UI Enhancer, Actor, Reacter, Code Compacter, Karaoke Singer, Good Time Bringer, Reader, Thinker, A Nice Whiskey Drinker , Cheeky Winker, Competitive Gamer, Canine Trainer, Joker, Smoker, Midnight Toker, Crypto Hoarder, Skateboarder, Scuba Diver, Horse Rider, Sky Diver, Thought Writer, Sports Liker, Thrillseeker, Globetrotter, Hate Stopper, Get In De Chopper, Film Lover, One Mother, Younger Brother, Big Brother, I'm Making Tea, Would You Like Another?",
+	role: ", Googler, Doodler, Noodler, Dancer, Prancer, UI Enhancer, Actor, Reacter, Code Compacter, Karaoke Singer, Good Time Bringer, Reader, Thinker, A Nice Whiskey Drinker , Cheeky Winker, Competitive Gamer, Canine Trainer, Eloper, Joker, Midnight Toker, Crypto Hoarder, Skateboarder, Scuba Diver, Horse Rider, Sky Diver, Thought Writer, Sports Liker, Thrillseeker, Globetrotter, Hate Stopper, Get In De Chopper, Film Lover, One Mother, Younger Brother, Big Brother, I'm Making Tea, Would You Like Another?",
 	resumeLink: '/TommyKnightCV2023.pdf',
 	view: true,
 };
@@ -76,7 +76,7 @@ export const projects = {
 		{
 			title: 'Portfolio',
 			desc: 'Practicing CSS effects and design',
-			url: 'https://www.tommyk.uk/splash',
+			url: '/splash',
 		},
 	],
 	view: true,
@@ -87,7 +87,7 @@ export const achievements = {
 	subTitle: 'I WILL BE SUCCESSFUL',
 	lists: [
 		{
-			img: "/strive-cert.png",
+			img: '/strive-cert.png',
 			alt: 'yay',
 			title: 'Strive!',
 			desc: 'FINISHED FULL STACK WEB DEVELOPMENT COURSE',

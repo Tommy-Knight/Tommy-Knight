@@ -47,12 +47,13 @@
 //     opacity: 0;
 //   }
 // }
-
+.root {
+	background-color: #121314;
+}
 
 body {
-	text-align: center;
 	background-color: black;
-	color: black;
+	color: rgba(169, 169, 169, 0.01);
 	overflow: auto;
 }
 
@@ -120,7 +121,7 @@ body {
 @keyframes noise-1 {
 	$steps: 30;
 	@for $i from 1 through $steps {
-		#{percentage($i*(1/$steps))} {
+		#{percentage($i*(calc(1/$steps)))} {
 			$top: random(100);
 			$bottom: random(101 - $top);
 			clip-path: inset(#{$top}px 0 #{$bottom}px 0);
@@ -131,7 +132,7 @@ body {
 @keyframes noise-2 {
 	$steps: 30;
 	@for $i from 0 through $steps {
-		#{percentage($i*(1/$steps))} {
+		#{percentage($i*(calc(1/$steps)))} {
 			$top: random(100);
 			$bottom: random(101 - $top);
 			clip-path: inset(#{$top}px 0 #{$bottom}px 0);
@@ -145,7 +146,7 @@ body {
 }
 
 .scanlines::before {
-	content: "";
+	content: '';
 	position: absolute;
 	width: 100%;
 	height: 100%;

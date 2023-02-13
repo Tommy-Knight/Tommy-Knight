@@ -1,8 +1,9 @@
-import React from 'react';
 import './Hello.css';
-import { greeting } from '../../portfolio';
+
+import React from 'react';
 import Social from '../Social/Social';
 import Typist from 'react-typist';
+import { greeting } from '../../portfolio';
 
 function Hello() {
 	const Fade: any = require("react-reveal/Fade");

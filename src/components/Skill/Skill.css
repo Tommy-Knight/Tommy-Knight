@@ -2,20 +2,24 @@
     padding: 110px 20px 0;
     position: relative;
     margin-top: 50px;
+
 }
 .section--skill .inner {
     max-width: 1600px;
     display: flex;
     margin: 0 auto;
+     
 }
 .section--skill .wrapper {
     margin-left: 10px;
     flex: 60%;
+    	z-Index: 5;
 }
 .section--skill .skill-title {
     font-size: 60px;
     font-weight: 400;
     color: #f1f2f3;
+    
 }
 .section--skill .skill-subtitle {
     margin-top: 50px;
@@ -28,6 +32,9 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, 20%);
     row-gap: 20px;
+    
+    
+    
 }
 .section--skill .skill-desc {
     margin-top: 50px;
@@ -44,6 +51,7 @@
     color: #f1f1f1;
     align-self: center;
     text-align: center;
+    
 }
 
 @media screen and (max-width: 1380px) {

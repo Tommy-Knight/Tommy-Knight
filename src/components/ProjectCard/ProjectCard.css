@@ -5,7 +5,7 @@
     padding: 30px;
     margin-bottom: 30px;
     background-color: #212223;
-    background-image: "/public/photide.png";
+    background-image: "https://github.com/Tommy-Knight/Tommy-Knight/blob/7fdf211cf6870ca5725769370e7cb22e2673c7b0/public/photide.png";
       background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
@@ -15,6 +15,7 @@
     cursor: pointer;
     text-decoration: none;
     transition: 0.3s ease-out;
+    z-Index: 5;
 }
 .project-card-main:hover {
     box-shadow: 0 4px 8px rgba(38,38,38,0.2);

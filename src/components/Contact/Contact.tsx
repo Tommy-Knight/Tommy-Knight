@@ -1,13 +1,14 @@
-import React from 'react';
 import './Contact.css';
-import { contactInfo } from '../../portfolio';
+
+import React from 'react';
 import Social from '../Social/Social';
+import { contactInfo } from '../../portfolio';
 
 function Contact() {
     const Fade: any = require('react-reveal/Fade');
     return (
         <Fade bottom duration={800}>
-        <section className="section--contact" id="contact">
+        <div className="section--contact" id="contact">
 
             <div className="contact-title">
                 <p>{contactInfo.title}</p>
@@ -30,7 +31,7 @@ function Contact() {
                 </div>
                 
             </div>
-        </section>
+        </div>
         </Fade>
     );
 }

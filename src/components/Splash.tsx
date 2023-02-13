@@ -13,8 +13,8 @@ export const Splash = () => {
 	};
 
 	return (
-		<>
-			<div onClick={proceed}>
+		
+			<div className="glitch-body" onClick={proceed}>
 				<div className='container'>
 					<div className='glitch' data-text='TOMMYK'>
 						TOMMY
@@ -26,7 +26,7 @@ export const Splash = () => {
 				</div>
 				<div className='scanlines'></div>
 			</div>
-		</>
+		
 	);
 };
 
