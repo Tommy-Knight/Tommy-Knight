@@ -7,7 +7,7 @@
 
 - 🌱 I've studied **MERN-Stack. Open Source Full Stack development.** Working collaboratively with other students at <a href="https://strive.school">Strive School</a>!
 
-- 🤟 Ask me about **UX/UI or VSCode Extentions!**
+- 🤟 Visit my Site! Www.TommyK.uK 🦄
 
 - 📫 You can follow me on [Twitter][1]
 
