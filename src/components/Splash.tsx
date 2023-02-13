@@ -14,7 +14,7 @@ export const Splash = () => {
 
 	return (
 		
-			<div className="glitch-body" onClick={proceed}>
+			<div className="root glitch-body" onClick={proceed}>
 				<div className='container'>
 					<div className='glitch' data-text='TOMMYK'>
 						TOMMY
