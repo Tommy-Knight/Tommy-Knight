@@ -11,8 +11,8 @@ export const socialMediaLinks = {
 	github: 'https://github.com/Tommy-Knight',
 	linkedin: 'https://www.linkedin.com/in/tommy-knight-785175212/',
 	email: 'tknighted@hotmail.com',
-	facebook: '',
 	twitter: 'https://twitter.com/_TommyLK',
+	facebook: '',
 	instagram: '',
 	medium: '',
 	stackoverflow: '',
@@ -76,7 +76,7 @@ export const projects = {
 		{
 			title: 'Portfolio',
 			desc: 'Practicing CSS effects and design',
-			url: 'www.tommyk.uk',
+			url: 'https://www.tommyk.uk/splash',
 		},
 	],
 	view: true,

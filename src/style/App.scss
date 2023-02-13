@@ -15,205 +15,205 @@
 	border-radius: 10px;
 }
 
-:root {
-  --twinkleDelay: 10s;
+// :root {
+//   --twinkleDelay: 10s;
+// }
+
+// .stars {
+//   position: absolute;
+//   top: 0;
+//   right: 0;
+//   bottom: 0;
+//   left: 0;
+//   z-index: -1;
+//   overflow: hidden;
+// }
+
+// .star {
+//   position: absolute;
+//   width: 2px;
+//   height: 2px;
+//   background-color: white;
+//   border-radius: 50%;
+//   animation: twinkle 1s ease-in-out infinite;
+//   animation-delay: calc(var(--twinkleDelay) * 0.1s);
+// }
+
+// @keyframes twinkle {
+//   0% {
+//     opacity: 1;
+//   }
+//   100% {
+//     opacity: 0;
+//   }
+// }
+
+
+body {
+	text-align: center;
+	background-color: black;
+	color: black;
+	overflow: auto;
 }
 
-.stars {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: -1;
-  overflow: hidden;
+.App-header {
+	background-color: #282c34;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: calc(10px + 2vmin);
 }
 
-.star {
-  position: absolute;
-  width: 2px;
-  height: 2px;
-  background-color: white;
-  border-radius: 50%;
-  animation: twinkle 1s ease-in-out infinite;
-  animation-delay: calc(var(--twinkleDelay) * 0.1s);
+.searchInput {
+	font-family: inherit;
+}
+.searchInput:focus {
+	outline: none;
 }
 
-@keyframes twinkle {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
+.container {
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
 }
 
+.glitch {
+	color: rgb(223, 191, 191);
+	position: relative;
+	font-size: 9vw;
+	// margin: 70px 200px;
+	animation: glitch 5s 5s infinite;
+}
 
-// body {
-// 	text-align: center;
-// 	background-color: black;
-// 	color: black;
-// 	overflow: auto;
-// }
+.glitch::before {
+	content: attr(data-text);
+	position: absolute;
+	left: -2px;
+	text-shadow: -5px 0 magenta;
+	background: black;
+	overflow: hidden;
+	top: 0;
+	animation: noise-1 2s linear infinite alternate-reverse, glitch 3s 3.05s infinite;
+}
 
-// .App-header {
-// 	background-color: #282c34;
-// 	display: flex;
-// 	flex-direction: column;
-// 	align-items: center;
-// 	font-size: calc(10px + 2vmin);
-// }
+.glitch::after {
+	content: attr(data-text);
+	position: absolute;
+	left: 2px;
+	text-shadow: -5px 0 lightgreen;
+	background: black;
+	overflow: hidden;
+	top: 0;
+	animation: noise-2 2s linear infinite alternate-reverse, glitch 3s 3s infinite;
+}
 
-// .searchInput {
-// 	font-family: inherit;
-// }
-// .searchInput:focus {
-// 	outline: none;
-// }
+@keyframes glitch {
+	1% {
+		transform: rotateX(10deg) skewX(90deg);
+	}
+	2% {
+		transform: rotateX(0deg) skewX(0deg);
+	}
+}
 
-// .container {
-// 	position: absolute;
-// 	transform: translate(-50%, -50%);
-// 	top: 50%;
-// 	left: 50%;
-// }
+@keyframes noise-1 {
+	$steps: 30;
+	@for $i from 1 through $steps {
+		#{percentage($i*(1/$steps))} {
+			$top: random(100);
+			$bottom: random(101 - $top);
+			clip-path: inset(#{$top}px 0 #{$bottom}px 0);
+		}
+	}
+}
 
-// .glitch {
-// 	color: rgb(223, 191, 191);
-// 	position: relative;
-// 	font-size: 9vw;
-// 	// margin: 70px 200px;
-// 	animation: glitch 5s 5s infinite;
-// }
+@keyframes noise-2 {
+	$steps: 30;
+	@for $i from 0 through $steps {
+		#{percentage($i*(1/$steps))} {
+			$top: random(100);
+			$bottom: random(101 - $top);
+			clip-path: inset(#{$top}px 0 #{$bottom}px 0);
+		}
+	}
+}
 
-// .glitch::before {
-// 	content: attr(data-text);
-// 	position: absolute;
-// 	left: -2px;
-// 	text-shadow: -5px 0 magenta;
-// 	background: black;
-// 	overflow: hidden;
-// 	top: 0;
-// 	animation: noise-1 2s linear infinite alternate-reverse, glitch 3s 3.05s infinite;
-// }
+.scanlines {
+	overflow: hidden;
+	mix-blend-mode: difference;
+}
 
-// .glitch::after {
-// 	content: attr(data-text);
-// 	position: absolute;
-// 	left: 2px;
-// 	text-shadow: -5px 0 lightgreen;
-// 	background: black;
-// 	overflow: hidden;
-// 	top: 0;
-// 	animation: noise-2 2s linear infinite alternate-reverse, glitch 3s 3s infinite;
-// }
+.scanlines::before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
 
-// @keyframes glitch {
-// 	1% {
-// 		transform: rotateX(10deg) skewX(90deg);
-// 	}
-// 	2% {
-// 		transform: rotateX(0deg) skewX(0deg);
-// 	}
-// }
+	background: repeating-linear-gradient(
+		to bottom,
+		transparent 0%,
+		rgba(10, 10, 10, 0.452) 0.5%,
+		transparent 1%
+	);
 
-// @keyframes noise-1 {
-// 	$steps: 30;
-// 	@for $i from 1 through $steps {
-// 		#{percentage($i*(1/$steps))} {
-// 			$top: random(100);
-// 			$bottom: random(101 - $top);
-// 			clip-path: inset(#{$top}px 0 #{$bottom}px 0);
-// 		}
-// 	}
-// }
+	animation: fudge 7s ease-in-out alternate infinite;
+}
 
-// @keyframes noise-2 {
-// 	$steps: 30;
-// 	@for $i from 0 through $steps {
-// 		#{percentage($i*(1/$steps))} {
-// 			$top: random(100);
-// 			$bottom: random(101 - $top);
-// 			clip-path: inset(#{$top}px 0 #{$bottom}px 0);
-// 		}
-// 	}
-// }
+@keyframes fudge {
+	from {
+		transform: translate(0px, 0px);
+	}
+	to {
+		transform: translate(0px, 2%);
+	}
+}
 
-// .scanlines {
-// 	overflow: hidden;
-// 	mix-blend-mode: difference;
-// }
+.glow {
+	@extend .glitch;
+	text-shadow: 0 0 1000px rgb(223, 191, 191);
+	color: transparent;
+	position: absolute;
+	top: 0;
+}
 
-// .scanlines::before {
-// 	content: "";
-// 	position: absolute;
-// 	width: 100%;
-// 	height: 100%;
-// 	top: 0;
-// 	left: 0;
+.subtitle {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 100;
+	font-size: 0.8vw;
+	color: rgba(165, 141, 141, 0.4);
+	text-transform: uppercase;
+	letter-spacing: 1em;
+	text-align: center;
+	position: absolute;
+	left: -104.6%;
+	animation: glitch-2 5s 5.02s infinite;
+}
 
-// 	background: repeating-linear-gradient(
-// 		to bottom,
-// 		transparent 0%,
-// 		rgba(10, 10, 10, 0.452) 0.5%,
-// 		transparent 1%
-// 	);
+@keyframes glitch-2 {
+	1% {
+		transform: rotateX(10deg) skewX(70deg);
+	}
+	2% {
+		transform: rotateX(0deg) skewX(0deg);
+	}
+}
 
-// 	animation: fudge 7s ease-in-out alternate infinite;
-// }
+//########################### FLOAT UP ###########################
 
-// @keyframes fudge {
-// 	from {
-// 		transform: translate(0px, 0px);
-// 	}
-// 	to {
-// 		transform: translate(0px, 2%);
-// 	}
-// }
-
-// .glow {
-// 	@extend .glitch;
-// 	text-shadow: 0 0 1000px rgb(223, 191, 191);
-// 	color: transparent;
-// 	position: absolute;
-// 	top: 0;
-// }
-
-// .subtitle {
-// 	font-family: Arial, Helvetica, sans-serif;
-// 	font-weight: 100;
-// 	font-size: 0.8vw;
-// 	color: rgba(165, 141, 141, 0.4);
-// 	text-transform: uppercase;
-// 	letter-spacing: 1em;
-// 	text-align: center;
-// 	position: absolute;
-// 	left: -104.6%;
-// 	animation: glitch-2 5s 5.02s infinite;
-// }
-
-// @keyframes glitch-2 {
-// 	1% {
-// 		transform: rotateX(10deg) skewX(70deg);
-// 	}
-// 	2% {
-// 		transform: rotateX(0deg) skewX(0deg);
-// 	}
-// }
-
-// //########################### FLOAT UP ###########################
-
-// p {
-// 	animation-duration: 2.2s;
-// 	animation-name: slidein;
-// }
-// @keyframes slidein {
-// 	from {
-// 		padding-top: 10px;
-// 		opacity: 0%;
-// 	}
-// 	to {
-// 		opacity: 100%;
-// 	}
-// }
-// //########################### FLOAT UP ###########################
+p {
+	animation-duration: 2.2s;
+	animation-name: slidein;
+}
+@keyframes slidein {
+	from {
+		padding-top: 10px;
+		opacity: 0%;
+	}
+	to {
+		opacity: 100%;
+	}
+}
+//########################### FLOAT UP ###########################
