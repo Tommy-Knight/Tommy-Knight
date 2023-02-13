@@ -11,8 +11,11 @@ class App extends React.Component {
 		return (
 			<Router>
 				<Switch>
-					<Route path='/splash' render={(routeProps: any) => <Splash {...routeProps} />}/>
-					<Route path='/' render={(routeProps: any) => <Main {...routeProps} />}/>
+					<Route path='/' render={(routeProps: any) => <Main {...routeProps} />} exact/>
+					<Route
+						path='/splash'
+						render={(routeProps: any) => <Splash {...routeProps} />}
+					/>
 				</Switch>
 			</Router>
 		);
