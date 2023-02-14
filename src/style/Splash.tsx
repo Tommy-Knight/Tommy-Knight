@@ -16,9 +16,9 @@ export const Splash = () => {
 		
 			<div className="root glitch-body" onClick={proceed}>
 				<div className='container'>
-					<div className='glitch' data-text='TOMMYK'>
+					<b className='glitch' data-text='TOMMYK'>
 						TOMMY
-					</div>
+					</b>
 					<div className='glow'>TOMMY</div>
 					<p style={{ overflow: "hidden", width: "100vw" }} className='subtitle'>
 						fullstackwebdevfullstackwebdevfullstackwebdevfullstackwebdevfullstackwebdevfullstackwebdevfullstackwebdevfullstackwebdevfullstackwebdevfullstackwebdevfullstackwebdevfullstackwebdevfullstackwebdevfullstackwebdevfullstackwebdevfullstackwebdevfullstackwebdevfullstackwebdevfullstackwebdevfullstackwebdevfullstackwebdevfullstackwebdevfullstackwebdevfullstackwebdevfullstackwebdevfullstackwebdevfullstackwebdevfullstackwebdevfullstackwebdevfullstackwebdevfullstackwebdevfullstackwebdevfullstackwebdevfullstackwebdev

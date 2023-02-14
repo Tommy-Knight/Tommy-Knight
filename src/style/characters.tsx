@@ -1,14 +1,15 @@
 import React, { useEffect, useState } from 'react';
 
 const RandomCharacter: React.FC = () => {
-	const charactersArray =
-		'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890'.split('');
 	const [characters, setCharacters] = useState<string[]>([]);
-	const [hideRadius] = useState(3);
+	const hideRadius = 3;
 	const [hoveredIndex, setHoveredIndex] = useState(-1);
 
+	const charactersArray =
+		'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890'.split('');
+	//generates random characters from array
 	useEffect(() => {
-		let newChars: string[] = [];
+		let newChars = [];
 		for (let i = 0; i < 2000; i++) {
 			let randomIndex = Math.floor(Math.random() * charactersArray.length);
 			newChars.push(charactersArray[randomIndex]);
@@ -16,7 +17,7 @@ const RandomCharacter: React.FC = () => {
 		setCharacters(newChars);
 		// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, []);
-
+	//randomly makes characters disappear
 	useEffect(() => {
 		const intervalId = setInterval(() => {
 			const newCharacters = [...characters];
@@ -24,11 +25,9 @@ const RandomCharacter: React.FC = () => {
 			newCharacters[randomIndex] = ' ';
 			setCharacters(newCharacters);
 		}, 20);
-		return () => {
-			clearInterval(intervalId);
-		};
+		return () => clearInterval(intervalId);
 	}, [characters]);
-
+	//hides characters nearby to mouse in array
 	const onMouseEnter = (index: number) => {
 		setHoveredIndex(index);
 		const newCharacters = [...characters];
@@ -41,19 +40,7 @@ const RandomCharacter: React.FC = () => {
 	};
 
 	return (
-		<div
-			className='App'
-			style={{
-				position: 'fixed',
-				fontSize: '2rem',
-				lineHeight: '34px',
-				wordWrap: 'break-word',
-				fontFamily: 'monospace',
-				userSelect: 'none',
-				width: '100vw',
-				height: '100vh',
-				zIndex: 1,
-			}}>
+		<div className='characters'>
 			{characters.map((c, index) => {
 				let char = c;
 				if (

@@ -7,7 +7,7 @@ import Footer from './Footer/Footer';
 import Hello from './Hello/Hello';
 import Navbar from './Navbar/Navbar';
 import Project from './Project/Project';
-import RandomCharacter from '../style/generateRandomCharacters';
+import RandomCharacter from '../style/characters';
 import Skill from './Skill/Skill';
 import Top from './topButton/Top';
 
