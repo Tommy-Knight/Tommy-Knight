@@ -17,6 +17,18 @@ const RandomCharacter: React.FC = () => {
 		// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, []);
 
+	useEffect(() => {
+		const intervalId = setInterval(() => {
+			const newCharacters = [...characters];
+			let randomIndex = Math.floor(Math.random() * newCharacters.length);
+			newCharacters[randomIndex] = ' ';
+			setCharacters(newCharacters);
+		}, 20);
+		return () => {
+			clearInterval(intervalId);
+		};
+	}, [characters]);
+
 	const onMouseEnter = (index: number) => {
 		setHoveredIndex(index);
 		const newCharacters = [...characters];
