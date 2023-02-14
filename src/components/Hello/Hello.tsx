@@ -4,6 +4,7 @@ import React from 'react';
 import Social from '../Social/Social';
 import Typist from 'react-typist';
 import { greeting } from '../../portfolio';
+import { title } from 'process';
 
 function Hello() {
 	const Fade: any = require("react-reveal/Fade");
@@ -32,7 +33,7 @@ function Hello() {
 							<Social />
 						</div>
 						<div className='wrapper-links'>
-							<a href='#contact' id='about'>
+							<a title="hi" href='#contact' id='about'>
 								Contact &gt;
 							</a>
 							<a

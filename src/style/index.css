@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
 
 body {
-	font-family: 'Zen Kurenaido', cursive !important;
+	font-family: 'Zen Kurenaido', cursive;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	margin: 0;
@@ -13,9 +13,7 @@ html {
 	scroll-behavior: smooth;
 }
 
-code {
-	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
-}
+
 ::-webkit-scrollbar {
 	width: 5px;
 }

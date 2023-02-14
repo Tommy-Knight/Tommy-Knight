@@ -9,7 +9,7 @@ const RandomCharacter: React.FC = () => {
 
 	useEffect(() => {
 		let newChars: string[] = [];
-		for (let i = 0; i < 5000; i++) {
+		for (let i = 0; i < 2000; i++) {
 			let randomIndex = Math.floor(Math.random() * charactersArray.length);
 			newChars.push(charactersArray[randomIndex]);
 		}

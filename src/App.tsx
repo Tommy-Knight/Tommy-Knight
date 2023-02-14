@@ -4,7 +4,7 @@ import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 
 import Main from './components/main';
 import React from 'react';
-import Splash from './components/Splash';
+import Splash from './style/Splash';
 
 class App extends React.Component {
 	render() {

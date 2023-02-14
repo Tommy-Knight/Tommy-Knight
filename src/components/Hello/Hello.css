@@ -1,6 +1,5 @@
 .section--hello {
 	position: relative;
-	padding: 5vh 20px;
 	margin-top: 100px;
 	margin-bottom: 0;
 	text-align: center;
@@ -8,14 +7,14 @@
 	display: flex;
 	justify-content: center;
 	height: 100vh;
-		z-index: 5;
+	z-index: 2;
 }
 .section--hello .inner {
 	max-width: 1600px;
 	margin: 0 auto;
 
 }
-.section--hello .wrapper {
+.section--hello .wrapper {	
 	color: #f1f2f3;
 }
 .section--hello .text-title {
@@ -50,10 +49,9 @@
 	box-sizing: border-box;
 	display: flex;
 	justify-content: center;
+	position: relative;
 }
-.wrapper-links a:hover {
-	z-index: 15;
-}
+
 .wrapper-links > * {
 	display: inline-block;
 	text-decoration: none;
@@ -127,39 +125,5 @@
 	}
 }
 @media screen and (max-width: 768px) {
-	.section--hello {
-		margin-top: 80px;
-		padding: 5vh 20px;
-		height: 130vh;
-	}
-	.section--hello .inner {
-		display: block;
-	}
-	.section--hello .wrapper {
-		min-width: auto;
-	}
-	.section--hello .text-title {
-		font-size: 36px;
-	}
-	.section--hello .role {
-		margin-top: 30px;
-	}
-	.section--hello .social-links {
-		width: fit-content;
-		margin: 0 auto;
-	}
-	.section--hello .wrapper-links > * {
-		max-width: 70%;
-		display: block;
-		padding: 20px 0;
-		font-size: 18px;
-		background-color: #242526;
-	}
-	#about {
-		margin: 0 auto;
-	}
-	#resume {
-		margin: 0 auto;
-		margin-top: 10px;
-	}
+
 }

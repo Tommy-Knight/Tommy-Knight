@@ -1,7 +1,8 @@
 .section--contact {
 	margin: 50px 0;
 	padding: 110px 20px 0;
-
+	z-index: 1;
+	position: relative;
 }
 .section--contact .contact-title {
 	max-width: 1600px;
@@ -18,7 +19,7 @@
 }
 .section--contact .wrapper-inner {
 	flex: 85% 1;
-    	z-Index: 5;
+    	z-Index: 1;
 }
 .section--contact .contact-subtitle {
 	font-size: 25px;
@@ -34,6 +35,8 @@
 }
 .section--contact .social-links {
 	margin-top: 50px;
+	z-index:5;
+	position: relative;
 }
 .section--contact .profile-img {
 	flex: 15% 1;
